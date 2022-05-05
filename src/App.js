@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { getData } from "./fakeAPI/getData";
 import "./App.css";
 import Card from "./components/Card/Card";
 
@@ -7,20 +8,7 @@ function App() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetch("fakeData.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    })
-      .then(function (response) {
-        console.log(response);
-        return response.json();
-      })
-      .then(function (myJson) {
-        setUsers(myJson);
-        setIsLoading(false);
-      });
+    getData({ setUsers, setIsLoading });
   }, []);
 
   return (
