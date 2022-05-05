@@ -9,12 +9,11 @@ test("renders user infos", () => {
         last_name: "Doe",
         email: "john.doe@email.com",
       }}
-      setUsers={() => {}}
     />
   );
-  const firstName = screen.getByText("John");
-  const lastName = screen.getByText("Doe");
-  const email = screen.getByText("john.doe@email.com");
+  const firstName = screen.getByDisplayValue("John");
+  const lastName = screen.getByDisplayValue("Doe");
+  const email = screen.getByDisplayValue("john.doe@email.com");
   expect(firstName).toBeInTheDocument();
   expect(lastName).toBeInTheDocument();
   expect(email).toBeInTheDocument();

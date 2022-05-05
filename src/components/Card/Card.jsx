@@ -1,8 +1,19 @@
 import styles from "./Card.module.css";
 import remove from "./remove.svg";
 
+// Card component
+// This component is used to display a user's card informations
+// It takes a user object and a setUsers function as props
+// It displays the user's informations in a card
+// It allows to edit the user's informations
+// It also displays a button to delete the user
+
 function Card({ user, setUsers }) {
-  console.log(user);
+  // This function handles user's informations edition
+  // It takes the changed value from the name property of the event caller
+  // it composes a new user object with the new value
+  // then searches the user in the users array
+  // and updates the user's informations with the new user object
   const handleChange = (e) => {
     const { name, value } = e.target;
     const newData = { ...user, [name]: value };
@@ -14,6 +25,9 @@ function Card({ user, setUsers }) {
     });
   };
 
+  // This function handles user's deletion
+  // It searches the current user in the users array
+  // and removes it
   const handleDelete = () => {
     setUsers((prevUsers) => {
       const newUsers = [...prevUsers];
@@ -23,6 +37,8 @@ function Card({ user, setUsers }) {
     });
   };
 
+  // Each input has a name property corresponding to the user's property
+  // so that the handleChange function can update the correct informations
   return (
     <div className={styles.container}>
       <form>
