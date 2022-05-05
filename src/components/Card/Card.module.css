@@ -13,10 +13,10 @@
 
 .container li {
   list-style: none;
-  margin: 5px 10px;
+  margin: 10px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: space-around;
+  justify-items: center;
 }
 
 button {
@@ -25,6 +25,7 @@ button {
   border-radius: 50%;
   border: none;
   background-color: #9c9c9c;
+  margin: 0 auto;
 }
 
 img {
