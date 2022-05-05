@@ -58,7 +58,7 @@ function Card({ user, setUsers }) {
             />
           </li>
         </ul>
-        <button onClick={handleDelete}>
+        <button type="button" onClick={handleDelete}>
           <img src={remove} alt="delete" />
         </button>
       </form>
