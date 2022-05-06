@@ -50,6 +50,10 @@ L'approche TDD souffre de toutes ces interrogations.</br>
 -  L'interrogation de ce fichier fakeData.json, via une requête fetch, pour initialiser le state de l'application.</br>
 -  Une gestion des tests de rendu reduite au seul composant 'Card'.</br>
 
+</br>
+
+</br>
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
