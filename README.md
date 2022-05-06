@@ -23,7 +23,7 @@ développement et expliquez les décisions que vous avez prises.
 
 </br>
 L'énoncé du sujet est très ouvert et très simple.</br>
-Qu'attend t-on de mon travail ?</br>
+Qu'attend-on de mon travail ?</br>
 - Une application single page, ou l'utilisation de React Router ?</br>
 - L'utilisation de l'API de contexte, de Redux ou une simple gestion de state ?</br>
 - Que signifie ce service fake coté backend ?</br>
@@ -41,7 +41,9 @@ L'approche TDD souffre de toutes ces interrogations.</br>
 ## Les choix :
 
 </br>
-Après reflections, et quelques essais, je suis arrivé à ces choix :</br>
+
+### Après réflexions, et quelques essais, je suis arrivé à ces choix :</br>
+
 -  Une application single page, sans utilisation de React Router.</br>
 -  Un seul composant 'Card', qui gérera les données et les actions.</br>
 -  L'utilisation d'un fichier de data au format JSON, placé dans le dossier public.</br>
