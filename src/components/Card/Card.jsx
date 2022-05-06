@@ -1,6 +1,6 @@
 import styles from "./Card.module.css";
 import remove from "./remove.svg";
-
+import { sortByLastName } from "../utils/sortByLastName";
 // Card component
 // This component is used to display a user's card informations
 // It takes a user object and a setUsers function as props
@@ -13,7 +13,7 @@ function Card({ user, setUsers }) {
   // It takes the changed value from the name property of the event caller
   // it composes a new user object with the new value
   // then searches the user in the users array
-  // and updates the user's informations with the new user object
+  // and updates the user's informations with the sorted new user object
   const handleChange = (e) => {
     const { name, value } = e.target;
     const newData = { ...user, [name]: value };
@@ -21,6 +21,7 @@ function Card({ user, setUsers }) {
       const newUsers = [...prevUsers];
       const index = newUsers.indexOf(user);
       newUsers[index] = newData;
+      sortByLastName(newUsers);
       return newUsers;
     });
   };
