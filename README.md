@@ -19,6 +19,7 @@ Conseils : essayez de suivre l'approche TDD en documentant vos étapes de
 développement et expliquez les décisions que vous avez prises.
 </br>
 ## \_Analyse :\_
+</br>
 L'énoncé du sujet est très ouvert et très simple.</br>
 Qu'attend t-on de mon travail ?</br>
 - Une application single page, ou l'utilisation de React Router ?</br>
@@ -31,6 +32,7 @@ Qu'attend t-on de mon travail ?</br>
 L'approche TDD souffre de toutes ces interrogations.</br>
 </br>
 ## \_Les choix :\_
+</br>
 Après reflections, et quelques essais, je suis arrivé à ces choix :</br>
 -  Une application single page, sans utilisation de React Router.</br>
 -  Un seul composant 'Card', qui gérera les données et les actions.</br>
