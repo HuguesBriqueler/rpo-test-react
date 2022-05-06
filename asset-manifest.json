@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/rpo-test-react/static/css/main.2f44a25d.css",
+    "main.js": "/rpo-test-react/static/js/main.fa63fced.js",
+    "static/media/remove.svg": "/rpo-test-react/static/media/remove.562b6f7bf7e482744720f6ec099ae7fb.svg",
+    "index.html": "/rpo-test-react/index.html",
+    "main.2f44a25d.css.map": "/rpo-test-react/static/css/main.2f44a25d.css.map",
+    "main.fa63fced.js.map": "/rpo-test-react/static/js/main.fa63fced.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f44a25d.css",
+    "static/js/main.fa63fced.js"
+  ]
+}
