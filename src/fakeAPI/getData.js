@@ -1,3 +1,10 @@
+import { sortByLastName } from "../components/utils/sortByLastName";
+
+// getData function
+// This function is used to fetch the fake data in public/fakeData.json
+// It populates the users state with the sorted data
+// It also sets the isLoading state to false when the fetching process is finished
+
 export function getData({ setUsers, setIsLoading }) {
   return fetch("fakeData.json", {
     headers: {
@@ -10,7 +17,7 @@ export function getData({ setUsers, setIsLoading }) {
       return response.json();
     })
     .then(function (myJson) {
-      setUsers(myJson);
+      setUsers(sortByLastName(myJson));
       setIsLoading(false);
     });
 }
