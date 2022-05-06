@@ -2,7 +2,7 @@
 
 Frontend - ReactJS CRUD Application </br>
 
-## \_L'énoncé du sujet :\_
+## L'énoncé du sujet :
 
 </br>
 Ecrivez une petite application web en ReactJS gérant une liste de
@@ -18,20 +18,24 @@ réponses devront être au format JSON.</br>
 Conseils : essayez de suivre l'approche TDD en documentant vos étapes de
 développement et expliquez les décisions que vous avez prises.
 </br>
-## \_Analyse :\_
+
+## Analyse :
+
 </br>
 L'énoncé du sujet est très ouvert et très simple.</br>
 Qu'attend t-on de mon travail ?</br>
 - Une application single page, ou l'utilisation de React Router ?</br>
 - L'utilisation de l'API de contexte, de Redux ou une simple gestion de state ?</br>
 - Que signifie ce service fake coté backend ?</br>
--   - Les données doivent elles persister ?</br>
--   - Dois-je mettre en place un 'monkey patch' sur la méthode fetch ?</br>
--   - Puis-je utiliser Firebase ?</br>
+   > Les données doivent elles persister ?</br>
+   > Dois-je mettre en place un 'monkey patch' sur la méthode fetch ?</br>
+   > Puis-je utiliser Firebase ?</br>
 </br>
 L'approche TDD souffre de toutes ces interrogations.</br>
 </br>
-## \_Les choix :\_
+
+## Les choix :
+
 </br>
 Après reflections, et quelques essais, je suis arrivé à ces choix :</br>
 -  Une application single page, sans utilisation de React Router.</br>
