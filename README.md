@@ -1,4 +1,60 @@
-# Getting Started with Create React App
+# RPO-Test-React
+
+Frontend - ReactJS CRUD Application </br>
+
+## L'énoncé du sujet :
+
+</br>
+Ecrivez une petite application web en ReactJS gérant une liste de
+personnes :</br>
+● Une personne possède ces attributs : identifiant, prénom, nom et
+adresse email</br>
+● Lister les personnes par le nom de famille</br>
+● Pouvoir modifier une personne de la liste</br>
+● Pouvoir supprimer une personne de la liste</br>
+● Côté backend, un service « fake » sera suffisant. Les requêtes et les
+réponses devront être au format JSON.</br>
+</br>
+Conseils : essayez de suivre l'approche TDD en documentant vos étapes de
+développement et expliquez les décisions que vous avez prises.
+</br>
+
+## Analyse :
+
+</br>
+L'énoncé du sujet est très ouvert et très simple.</br>
+Qu'attend-on de mon travail ?</br>
+- Une application single page, ou l'utilisation de React Router ?</br>
+- L'utilisation de l'API de contexte, de Redux ou une simple gestion de state ?</br>
+- Que signifie ce service fake coté backend ?</br>
+
+  > Les données doivent elles persister ?</br>
+  
+  > Dois-je mettre en place un 'monkey patch' sur la méthode fetch ?</br>
+  
+  > Puis-je utiliser Firebase ?</br>
+
+</br>
+L'approche TDD souffre de toutes ces interrogations.</br>
+</br>
+
+## Les choix :
+
+</br>
+
+### Après réflexions, et quelques essais, je suis arrivé à ces choix :</br>
+
+-  Une application single page, sans utilisation de React Router.</br>
+-  Un seul composant 'Card', qui gérera les données et les actions.</br>
+-  L'utilisation d'un fichier de data au format JSON, placé dans le dossier public.</br>
+-  L'interrogation de ce fichier fakeData.json, via une requête fetch, pour initialiser le state de l'application.</br>
+-  Une gestion des tests de rendu reduite au seul composant 'Card'.</br>
+
+</br>
+
+</br>
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
