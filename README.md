@@ -48,6 +48,7 @@ L'approche TDD souffre de toutes ces interrogations.</br>
 -  Un seul composant 'Card', qui gérera les données et les actions.</br>
 -  L'utilisation d'un fichier de data au format JSON, placé dans le dossier public.</br>
 -  L'interrogation de ce fichier fakeData.json, via une requête fetch, pour initialiser le state de l'application.</br>
+-  Gestion des données simple, au niveau du state, sans persistence.</br>
 -  Une gestion des tests de rendu reduite au seul composant 'Card'.</br>
 
 </br>
