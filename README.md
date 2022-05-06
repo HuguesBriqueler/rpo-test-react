@@ -27,9 +27,13 @@ Qu'attend t-on de mon travail ?</br>
 - Une application single page, ou l'utilisation de React Router ?</br>
 - L'utilisation de l'API de contexte, de Redux ou une simple gestion de state ?</br>
 - Que signifie ce service fake coté backend ?</br>
-   > Les données doivent elles persister ?</br>
-   > Dois-je mettre en place un 'monkey patch' sur la méthode fetch ?</br>
-   > Puis-je utiliser Firebase ?</br>
+
+  > Les données doivent elles persister ?</br>
+  
+  > Dois-je mettre en place un 'monkey patch' sur la méthode fetch ?</br>
+  
+  > Puis-je utiliser Firebase ?</br>
+
 </br>
 L'approche TDD souffre de toutes ces interrogations.</br>
 </br>
